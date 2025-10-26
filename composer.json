@@ -21,6 +21,9 @@
             "ZhiYouBao\\SDK\\Tests\\": "tests/"
         }
     },
+    "scripts": {
+        "test": "phpunit"
+    },
     "minimum-stability": "stable",
     "prefer-stable": true
 }

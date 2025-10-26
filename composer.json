@@ -1,0 +1,26 @@
+{
+    "name": "zhiyoubao/zyb-sdk",
+    "description": "智游宝接口 SDK",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["zhiyoubao", "zyb", "sdk"],
+    "require": {
+        "php": ">=8.0",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ZhiYouBao\\SDK\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ZhiYouBao\\SDK\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
